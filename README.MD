@@ -35,7 +35,7 @@
 ### Chapter 2 - 데이터
 [이승현: BAUM STUDY - chapter 2]()
 
-[정철희: BAUM STUDY - chapter 2]()
+[정철희: BAUM STUDY - chapter 2](chapter2%2Fstudy%2F%EC%A0%95%EC%B2%A0%ED%9D%AC-chapter2.MD)
 
 [정현주: BAUM STUDY - chapter 2]()
 ```
