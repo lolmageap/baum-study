@@ -1,8 +1,8 @@
-# Chapter 2: incode, decode를 사용한 예시
+# Chapter 2: encode, decode를 사용한 예시
 
-## incode, decode
+## encode, decode
 
-- 인코드(incode) : 데이터를 특정 형식이나 코드로 변환하는 과정
+- 인코드(encode) : 데이터를 특정 형식이나 코드로 변환하는 과정
 - 디코드(decode) : 데이터를 원래의 형식 또는 의미로 변환하는 과정
 
 ## AES 암호화 알고리즘
