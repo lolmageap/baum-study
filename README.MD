@@ -69,4 +69,3 @@
 
 [정철희: BAUM STUDY - chapter 3 미션](chapter2%2Fmission%2F%EC%A0%95%EC%B2%A0%ED%9D%AC-chapter2-mission.MD)
 </details>
-```
