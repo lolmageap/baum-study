@@ -53,5 +53,20 @@
 ### Chapter 3 - 명령어
 
 [정철희: BAUM STUDY - chapter 3](chapter3%2Fstudy%2F%EC%A0%95%EC%B2%A0%ED%9D%AC-chapter3.MD)
+```
+💡 Chapter 3 미션!
 
+  연산코드 중 'call', 'return'은 함수가 저장되어 있는 메모리 주소 공간의 명령어들을 모두 실행한 뒤 함수의 위치로 돌아오는 명령어입니다.
+  함수를 많이 호출하면 왔다 갔다 하는 오버헤드가 빈번하게 발생하겠죠.
+  하지만 이런 단점에도 불구하고 함수를 사용하는 이유는 무엇일까요?
+  
+  (필수) 함수를 사용하는 예시 코드를 작성해볼까요? 
+  (선택) 함수 호출 시 오버헤드를 줄일 수 있는 방법을 코드로 작성해볼까요? 
+```
+
+<details>
+<summary><b>️ Chapter 3 미션 정리</b></summary>
+
+[정철희: BAUM STUDY - chapter 3 미션](chapter2%2Fmission%2F%EC%A0%95%EC%B2%A0%ED%9D%AC-chapter2-mission.MD)
+</details>
 ```
