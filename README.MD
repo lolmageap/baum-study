@@ -50,6 +50,8 @@
 <summary><b>️ Chapter 2 미션 정리</b></summary>
 
 [정철희: BAUM STUDY - chapter 2 미션](chapter2%2Fmission%2F%EC%A0%95%EC%B2%A0%ED%9D%AC-chapter2-mission.MD)
+
+[정철희: BAUM STUDY - chapter 2 미션](chapter2/mission/최범진-chapter2-mission.MD)
 </details>
 
 ### Chapter 3 - 명령어
