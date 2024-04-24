@@ -21,3 +21,9 @@ T
 $chapter3/study/정철희-chapter3.MD,e/1/e1b8ca0a84ef44588ec7fbd068461eb615e63b7c
 T
 $chapter3/study/이승현-chapter3.MD,d/8/d86215170056a5152a360ba1faad3fdda3cb21cb
+^
+.chapter3/mission/최범진-chapter3-mission.MD,f/8/f8e0bba20d06a8c0955e2354e682d4c5ee9fdfe1
+^
+.chapter3/mission/정철희-chapter3-mission.MD,b/c/bc2e8432d0994d79bf22c6b4e653b8de5a28f5e4
+^
+.chapter3/mission/이승현-chapter3-mission.MD,e/e/eea05184ace2820e0244dc8678a18d3c6bf5e4b0
