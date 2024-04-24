@@ -53,8 +53,8 @@ public class Main {
     public static void main(String[] args) {
         int a = 1;
         int b = 2;
-        int result = a + b;  // 함수 본문을 여기에 직접 삽입합니다.
-        System.out.println(result);  // 결과 출력
+        int result = a + b;  // 함수 본문
+        System.out.println(result); 
     }
 }
 ```
