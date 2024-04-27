@@ -77,3 +77,7 @@
 
 [최범진: BAUM STUDY - chapter 3 미션](chapter3/mission/최범진-chapter3-mission.MD)
 </details>
+
+### Chapter 4 - CPU의 작동원리
+
+[정철희: BAUM STUDY - chapter 4]()
