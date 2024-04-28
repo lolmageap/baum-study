@@ -40,6 +40,7 @@
 [정현주: BAUM STUDY - chapter 2]()
 
 [최범진: BAUM STUDY - chapter 2](chapter2/study/최범진-chapter2.MD)
+
 ```
 💡 Chapter 2 미션!
 
@@ -59,6 +60,7 @@
 [정철희: BAUM STUDY - chapter 3](chapter3%2Fstudy%2F%EC%A0%95%EC%B2%A0%ED%9D%AC-chapter3.MD)
 
 [최범진: BAUM STUDY - chapter 3](chapter3/study/최범진-chapter3.MD)
+
 ```
 💡 Chapter 3 미션!
 
@@ -81,3 +83,13 @@
 ### Chapter 4 - CPU의 작동원리
 
 [정철희: BAUM STUDY - chapter 4]()
+
+```
+💡 Chapter 4 미션!
+
+  이번 챕터에서는 인터럽트에 대해 배웠어요. 
+  인터럽트가 없다면 cpu는 계속 해서 외부 장치의 신호를 보내 확인하죠.
+  이를 polling이라고 하는데 이것은 cpu의 성능을 낮추게 됩니다.
+  
+  간단하게 polling을 사용한 예시 코드를 작성해볼까요?
+```
