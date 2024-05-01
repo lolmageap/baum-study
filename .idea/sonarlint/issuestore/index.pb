@@ -31,3 +31,7 @@ T
 $chapter4/study/정철희-chapter4.MD,b/9/b90f1590acb4a3168bb0ea73f674de4246baec63
 T
 $chapter4/study/이승현-chapter4.MD,a/e/ae7b5a197240b9725b318020abb9d703c2fda422
+^
+.chapter4/mission/이승현-chapter4-mission.MD,d/9/d9248248701d1999ab86c733f5bc9c7d8e71a2b4
+^
+.chapter4/mission/정철희-chapter4-mission.MD,5/b/5b32ceb199c6f223dcf1b97366dcdd9c79057b6b
