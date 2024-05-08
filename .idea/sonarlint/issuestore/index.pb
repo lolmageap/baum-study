@@ -39,3 +39,7 @@ T
 $chapter5/study/정철희-chapter5.MD,4/5/45923cd9e4ae18a10ec92ec479f485bd957c9942
 T
 $chapter5/study/이승현-chapter5.MD,f/a/fa33270b60759022f36af3fa84e1d507707d1be9
+<
+Introduce.MD,5/b/5bc0c5bfac664c51fd5e73cdbc4e9e0ac5dd3805
+^
+.chapter5/mission/이승현-chapter5-mission.MD,8/4/84be7f65824ec78cfec8c09ab9c8e3a8c1f5d978
