@@ -44,7 +44,7 @@ int staticNum = 10;
 
 //동적 메모리 할당
 
-Scanner scanner = new Scanner([System.in](http://system.in/));
+Scanner scanner = new Scanner(System.in);
 
 int size = scanner.nextInt();
 
