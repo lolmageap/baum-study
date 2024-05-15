@@ -49,3 +49,9 @@ T
 $chapter6/study/이승현-chapter5.MD,4/a/4aa7757d76e3245e467ada718dc6bc3fe95a6aa4
 T
 $chapter6/study/이승현-chapter6.MD,1/b/1bb9ae8690c96723d81a027999343f9cdf4e6308
+T
+$chapter6/study/정철희-chapter6.MD,d/4/d44a22a8ae66c19c3853c92ecbbae74c5095ae6a
+^
+.chapter6/mission/이승현-chapter6-mission.MD,3/9/3919980f98b3a58e7073162b701c0ea86b51635a
+^
+.chapter6/mission/최범진-chapter6-mission.MD,c/3/c370111c458d3d35556e4700c3a255af7ade8ebb
