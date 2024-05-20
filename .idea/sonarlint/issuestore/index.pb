@@ -46,8 +46,6 @@ $chapter5/study/이승현-chapter5.MD,f/a/fa33270b60759022f36af3fa84e1d507707d1
 ^
 .chapter5/mission/정현주-chapter5-mission.MD,5/e/5e305046c9f1fb59507a6637e6e63564d3033c21
 T
-$chapter6/study/이승현-chapter5.MD,4/a/4aa7757d76e3245e467ada718dc6bc3fe95a6aa4
-T
 $chapter6/study/이승현-chapter6.MD,1/b/1bb9ae8690c96723d81a027999343f9cdf4e6308
 T
 $chapter6/study/정철희-chapter6.MD,d/4/d44a22a8ae66c19c3853c92ecbbae74c5095ae6a
@@ -55,3 +53,11 @@ $chapter6/study/정철희-chapter6.MD,d/4/d44a22a8ae66c19c3853c92ecbbae74c5095a
 .chapter6/mission/이승현-chapter6-mission.MD,3/9/3919980f98b3a58e7073162b701c0ea86b51635a
 ^
 .chapter6/mission/최범진-chapter6-mission.MD,c/3/c370111c458d3d35556e4700c3a255af7ade8ebb
+T
+$chapter7/study/이승현-chapter7.MD,2/5/256cb3c881b45b03334debacde09dffb416ccd19
+T
+$chapter7/study/정철희-chapter7.MD,e/7/e760877efddc8e33abfe121e6f561e47b51f07c6
+T
+$chapter7/study/정현주-chapter7.MD,c/d/cd1efe2c335158bdf64ac17e53bdaff887f6b45b
+T
+$chapter7/study/최범진-chapter7.MD,b/0/b08173820ffd3fc348a14b8fdae6a86286e227a6
