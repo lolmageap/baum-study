@@ -61,3 +61,7 @@ T
 $chapter7/study/정현주-chapter7.MD,c/d/cd1efe2c335158bdf64ac17e53bdaff887f6b45b
 T
 $chapter7/study/최범진-chapter7.MD,b/0/b08173820ffd3fc348a14b8fdae6a86286e227a6
+^
+.chapter7/mission/정현주-chapter7-mission.MD,e/7/e7f8c384ae556e60688328655c2cda2c8eb4e1c9
+^
+.chapter7/mission/이승현-chapter7-mission.MD,8/f/8ff810c71e9e2173fdd624302045b7055698821a
