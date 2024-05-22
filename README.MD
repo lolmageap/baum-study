@@ -96,7 +96,7 @@
 ```
 
 💡 Chapter 7 미션!
-
+  
   - 이승현, 정현주 {
      이번 챕터에서는 SSD와 HDD에 대해서 배웠어요.
      데이터베이스에 접근 하게 되면 디스크에 데이터를 쓰고 읽어야하는데 그럼 엄청 느리겠죠?
@@ -104,8 +104,8 @@
   }
   
   - 최범진, 정철희 {
-     이번 챕터에서는 NAND Gateway와 NOR Gateway 라는게 있다고 배웠어요.
-     NAND Gateway와 NOR Gateway에 대해 더 자세히 알아볼까요?
+     이번 챕터에서는 NAND Gate와 NOR Gate 라는게 있다고 배웠어요.
+     NAND Gate와 NOR Gate에 대해 더 자세히 알아볼까요?
   }
   
 ```
