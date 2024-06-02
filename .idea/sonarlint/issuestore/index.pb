@@ -69,3 +69,9 @@ T
 $chapter8/study/이승현-chapter8.MD,c/7/c7eaf3714d15bc398fa55e71d8f8826eb635263c
 T
 $chapter8/study/정철희-chapter8.MD,c/a/ca8c2c5693e4ff6d1cb07e508b4b0ea3a683a3e3
+T
+$chapter8/study/최범진-chapter8.MD,e/0/e085e881403ea6b26dfb8dc0a5fcdbd37909e76b
+T
+$chapter9/study/정철희-chapter9.MD,7/b/7bc7ca1c4a8f15e3ea5010137020b07a1e8ffe16
+T
+$chapter9/study/이승현-chapter9.MD,6/e/6e9a0899b7a842949f065cd4b63af32d394c691b
