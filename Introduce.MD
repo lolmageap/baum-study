@@ -43,3 +43,13 @@ ex) async nonblocking(thread, process), functional programming (register, memory
 이번 스터디를 통해 기반 지식을 늘려서 보는 시야를 넓히는걸 목표로 하고 있습니다.
 
 - 첫번째 스터디가 끝났을 때 첫째 주 목요일에 할 일: 첫번째 챕터는 내용이 매우 단순하기 때문에 간단하게 학습하고 간단하게 커뮤니케이션을 하는 시간을 가지겠습니다.
+
+## 다음 스터디 후보
+
+1. 도메인 주도 설계(DDD) : https://product.kyobobook.co.kr/detail/S000001810495
+2. 테스트 주도 개발(TDD) : https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=7168995
+3. Docker / Kubernetes : https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=273111259&start=pgooglemc
+4. Clean Code : https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=34083680
+5. Clean Architecture : https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=202322454
+6. GoF 디자인 패턴 : https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=290892473
+7. 함수형 프로그래밍 : 자바로 할지 코틀린으로 할지 정해야 함
