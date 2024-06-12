@@ -83,3 +83,5 @@ W
 'chapter10/study/이승현-chapter-10.MD,1/a/1a1fad746b47b83dc2005e4f28ab3f013efe2936
 V
 &chapter10/study/정현주-chapter10.MD,e/b/eb5749b1ce035f44cf4696d875d12291a1f2c72a
+`
+0chapter10/mission/이승현-chapter10-mission.MD,6/4/641b1248686c446e39e56bbac5e39a099f7fe5f2
