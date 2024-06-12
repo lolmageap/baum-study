@@ -16,7 +16,7 @@ public class ThreadPoolTest {
         ExecutorService executor = Executors.newFixedThreadPool(5);
 
         Runnable task = () -> {
-            String threadName = Thread.currentThread().getName();
+            // 작업
         };
 
         // 스레드 풀에 작업 제출
