@@ -143,3 +143,7 @@
 ### Chapter 11 - CPU 스케줄링
 
 ### Chapter 12 - 동기화
+
+### Chapter 13 - 교착상태
+
+### Chapter 14 - 가상 메모리
