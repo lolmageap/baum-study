@@ -93,3 +93,7 @@ V
 &chapter12/study/정철희-chapter12.MD,3/f/3fd230ac1f4e1c7638442ee17f89506b94189b40
 V
 &chapter12/study/정현주-chapter12.MD,a/e/ae645d100bcc41d2ed257026f9481ef93862e286
+V
+&chapter14/study/이승현-chapter14.MD,2/6/26fb1500c6705b9979ba62fd8f06dcb568e9ba3b
+V
+&chapter14/study/정철희-chapter14.MD,3/a/3ab29adb4eb88899d4849cb078c3b751d6544f69
