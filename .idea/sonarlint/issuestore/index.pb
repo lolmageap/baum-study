@@ -27,3 +27,5 @@ V
 &chapter15/study/이승현-chapter15.MD,0/f/0f400ed3b00743981f68cfac60a8f3bf10687290
 V
 &chapter13/study/이승현-chapter15.MD,b\2\b23d8d84719f059e1aaf9c74d72dac6cee3b5cd8
+V
+&chapter15/study/정철희-chapter15.MD,c/9/c9f970293a39cb85ebd54c6f5d246245ca5cacce
