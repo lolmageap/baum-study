@@ -24,7 +24,7 @@
 - 발표가 끝나면 서로 피드백을 해주는 시간을 가지겠습니다.
 - 개인적으로 최근에 읽거나 관심있게 봤던 주제나 아티클을 공유하는 시간도 있었으면 좋겠습니다.
 
-## 기대 결과
+### 기대 결과
 
 - 메모리, 레지스터, CPU 등 하드웨어의 이해
 - 운영체제에 대한 이해
@@ -32,7 +32,9 @@
 - file system의 이해
 - 커뮤니케이션 부분의 성장
 
-## 목표
+
+
+### 목표
 
 컴퓨터 구조와 운영체제는 실무에 많이 도움이 되는 과목은 아닙니다.
 
@@ -44,12 +46,13 @@ ex) async nonblocking(thread, process), functional programming (register, memory
 
 - 첫번째 스터디가 끝났을 때 첫째 주 목요일에 할 일: 첫번째 챕터는 내용이 매우 단순하기 때문에 간단하게 학습하고 간단하게 커뮤니케이션을 하는 시간을 가지겠습니다.
 
-## 다음 스터디 후보
+## Docker / Kubernetes : https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=273111259&start=pgooglemc
 
-1. 도메인 주도 설계(DDD) : https://product.kyobobook.co.kr/detail/S000001810495
-2. 테스트 주도 개발(TDD) : https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=7168995
-3. Docker / Kubernetes : https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=273111259&start=pgooglemc
-4. Clean Code : https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=34083680
-5. Clean Architecture : https://www.aladin.co.kr/shop/UsedShop/wuseditemall.aspx?ItemId=202322454
-6. GoF 디자인 패턴 : https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=290892473
-7. 함수형 프로그래밍 : 자바로 할지 코틀린으로 할지 정해야 함
+### 화요일 오전 스터디
+도커/쿠버네티스 책을 읽고 공부한 내용을 정리해옵니다.  
+매주 목요일 스터디에서 어디까지 진도를 나갈지 정합니다.  
+그리고 무리하게 진도를 나가게 되어 학습이 부족한 부분은 목요일 스터디로 이전합니다.  
+
+### 목요일 오전 스터디
+화요일까지 공부했던 내용들을 실습 할 수 있게 코드/명령어로 정리(꼭 정리를 하지는 않아도 됨)합니다.  
+그리고 정리한 내용을 가지고 목요일 오전에 모두 실습을 진행하겠습니다.
