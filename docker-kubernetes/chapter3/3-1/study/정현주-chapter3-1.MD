@@ -37,52 +37,52 @@ https://github.com/sysnet4admin/_Book_k8sInfra 에 접속하여 쿠버네티스 
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-N = 3 # max number of worker nodes
-Ver = '1.18.4' # Kubernetes Version to install
+    N = 3 # max number of worker nodes
+    Ver = '1.18.4' # Kubernetes Version to install
 
-#=============#
-# Master Node #
-#=============#
+    #=============#
+    # Master Node #
+    #=============#
 
-config.vm.define "m-k8s" do |cfg|
-cfg.vm.box = "sysnet4admin/CentOS-k8s"
-cfg.vm.provider "virtualbox" do |vb|
-vb.name = "m-k8s(github_SysNet4Admin)"
-vb.cpus = 2
-vb.memory = 3072
-vb.customize ["modifyvm", :id, "--groups", "/k8s-SgMST-18.6.0(github_SysNet4Admin)"]
-end
-cfg.vm.host_name = "m-k8s"
-cfg.vm.network "private_network", ip: "192.168.1.10"
-cfg.vm.network "forwarded_port", guest: 22, host: 60010, auto_correct: true, id: "ssh"
-cfg.vm.synced_folder "../data", "/vagrant", disabled: true
-cfg.vm.provision "shell", path: "config.sh", args: N
-cfg.vm.provision "shell", path: "install_pkg.sh", args: [ Ver, "Main" ]
-cfg.vm.provision "shell", path: "master_node.sh"
-end
+        config.vm.define "m-k8s" do |cfg|
+            cfg.vm.box = "sysnet4admin/CentOS-k8s"
+            cfg.vm.provider "virtualbox" do |vb|
+                vb.name = "m-k8s(github_SysNet4Admin)"
+                vb.cpus = 2
+                vb.memory = 3072
+                vb.customize ["modifyvm", :id, "--groups", "/k8s-SgMST-18.6.0(github_SysNet4Admin)"]
+            end
+            cfg.vm.host_name = "m-k8s"
+            cfg.vm.network "private_network", ip: "192.168.1.10"
+        cfg.vm.network "forwarded_port", guest: 22, host: 60010, auto_correct: true, id: "ssh"
+        cfg.vm.synced_folder "../data", "/vagrant", disabled: true
+        cfg.vm.provision "shell", path: "config.sh", args: N
+        cfg.vm.provision "shell", path: "install_pkg.sh", args: [ Ver, "Main" ]
+        cfg.vm.provision "shell", path: "master_node.sh"
+    end
 
-#==============#
-# Worker Nodes #
-#==============#
+    #==============#
+    # Worker Nodes #
+    #==============#
 
-(1..N).each do |i|
-config.vm.define "w#{i}-k8s" do |cfg|
-cfg.vm.box = "sysnet4admin/CentOS-k8s"
-cfg.vm.provider "virtualbox" do |vb|
-vb.name = "w#{i}-k8s(github_SysNet4Admin)"
-vb.cpus = 1
-vb.memory = 2560
-vb.customize ["modifyvm", :id, "--groups", "/k8s-SgMST-18.6.0(github_SysNet4Admin)"]
-end
-cfg.vm.host_name = "w#{i}-k8s"
-cfg.vm.network "private_network", ip: "192.168.1.10#{i}"
-cfg.vm.network "forwarded_port", guest: 22, host: "6010#{i}", auto_correct: true, id: "ssh"
-cfg.vm.synced_folder "../data", "/vagrant", disabled: true
-cfg.vm.provision "shell", path: "config.sh", args: N
-cfg.vm.provision "shell", path: "install_pkg.sh", args: Ver
-cfg.vm.provision "shell", path: "work_nodes.sh"
-end
-end
+    (1..N).each do |i|
+        config.vm.define "w#{i}-k8s" do |cfg|
+            cfg.vm.box = "sysnet4admin/CentOS-k8s"
+            cfg.vm.provider "virtualbox" do |vb|
+                vb.name = "w#{i}-k8s(github_SysNet4Admin)"
+                vb.cpus = 1
+                vb.memory = 2560
+                vb.customize ["modifyvm", :id, "--groups", "/k8s-SgMST-18.6.0(github_SysNet4Admin)"]
+            end
+            cfg.vm.host_name = "w#{i}-k8s"
+            cfg.vm.network "private_network", ip: "192.168.1.10#{i}"
+            cfg.vm.network "forwarded_port", guest: 22, host: "6010#{i}", auto_correct: true, id: "ssh"
+            cfg.vm.synced_folder "../data", "/vagrant", disabled: true
+            cfg.vm.provision "shell", path: "config.sh", args: N
+            cfg.vm.provision "shell", path: "install_pkg.sh", args: Ver
+            cfg.vm.provision "shell", path: "work_nodes.sh"
+        end
+    end
 
 end
 ```
@@ -222,9 +222,9 @@ systemctl enable --now kubelet
 
 # git clone _Book_k8sInfra.git
 if [ $2 = 'Main' ]; then
-git clone https://github.com/sysnet4admin/_Book_k8sInfra.git
-mv /home/vagrant/_Book_k8sInfra $HOME
-find $HOME/_Book_k8sInfra/ -regex ".*\.\(sh\)" -exec chmod 700 {} \;
+    git clone https://github.com/sysnet4admin/_Book_k8sInfra.git
+    mv /home/vagrant/_Book_k8sInfra $HOME
+    find $HOME/_Book_k8sInfra/ -regex ".*\.\(sh\)" -exec chmod 700 {} \;
 fi
 
 ```
@@ -320,7 +320,7 @@ kubectl get pods --all-namespaces 명령으로 설치된 쿠버네티스 구성 
 다음은 쿠버네티스의 구성 요소 간 통신 흐름을 나타낸 이미지입니다.  
 즉, 파드를 배포하는 순서를 확인할 수 있습니다.
 
-![img.png](../image/정현주-image1.jpg)
+![img.png](../image/정현주1.png)
 
 * #### ⓪ : kubectl
   -쿠버네티스 클러스터에 명령을 내리는 역할입니다.  
@@ -390,7 +390,7 @@ kubectl get pods --all-namespaces 명령으로 설치된 쿠버네티스 구성 
 ## 4. 파드의 생명주기로 쿠버네티스 구성 요소 살펴보기
 아래 파드의 생명주기는 파드가 생성, 수정, 삭제되는 과정을 나타냅니다.
 
-![img.png](../image/정현주-image2.jpg)
+![img.png](../image/정현주2.png)
 
 #### ① kubectl을 통해 API 서버에 파드 생성을 요청합니다.
 
@@ -415,7 +415,7 @@ kubectl get pods --all-namespaces 명령으로 설치된 쿠버네티스 구성 
 
 ## 5. 쿠버네티스의 상태 유지 방법
 
-![img.png](../image/정현주-image3.jpg)
+![img.png](../image/정현주3.png)
 
 쿠버네티스는 작업을 순서대로 진행하는 워크플로 구조가 아니라 선언적인 시스템 구조를 가지고 있습니다.  
 즉, 각 요소가 추구하는 상태를 선언하면 현재 상태와 맞는지 점검하고 그것에 맞추려고 노력하는 구조로 되어있는 것입니다.
