@@ -18,7 +18,8 @@ ex) kubectl create deployment nginx-pod --image=nginx # nginx 파드 생성
 - run으로 생성 시, 단일 파드 1개가 생성되고 관리됨. 간단한 테스트 목적으로 사용되는 방법
 - create으로 생성 시, 디플로이먼트(deployment)라는 관리 그룹 내에서 파드가 생성됨. 권장되는 방법
 
-![파드와 디플로이먼트의 구성 비교.jpg](../image/방재영-image1.jpg)
+<img src="../image/방재영-image1.jpg" width="550" height="400">   
+
 ref) https://thebook.io/080241/0123/
 
 ### 2) 생성된 파드 확인
@@ -56,7 +57,8 @@ kubectl get pods -o wide # 생성된 파드의 IP를 확인
     - 쿠버네티스 외부에서 내부로 접속할 때, 내부의 상황에 신경쓰지 않아도 논리적으로 연결하도록 해줌
     - 기존 인프라의 로드밸런서, 게이트웨이와 비슷한 역할
 
-![쿠버네티스의 기본 오브젝트.jpg](../image/방재영-image2.jpg)
+<img src="../image/방재영-image2.jpg" width="600" height="400">   
+
 ref) https://thebook.io/080241/0126/
 
 ### 2) 디플로이먼트
@@ -84,7 +86,8 @@ kubectl scale deployment [디플로이먼트 이름] --replicas=[원하는 파�
 kubectl get pods # 원하는 파드 수만큼 맞춰져있는지 확인
 ```
 
-![레플리카셋으로 총 3개의 파드 상태로 변경됨.jpg](../image/방재영-image3.jpg)
+<img src="../image/방재영-image3.jpg" width="600" height="400">   
+
 ref) https://thebook.io/080241/0131/
 
 <br/>
@@ -94,7 +97,8 @@ ref) https://thebook.io/080241/0131/
 - 오브젝트 스펙을 통해 디플로이먼트 생성 시, 여러 개의 파드를 만들 수 있음
 - 오브젝트 스펙은 yaml 문법으로 작성
 
-![오브젝트 스펙 yml 파일 구조.jpg](../image/방재영-image4.jpg)
+<img src="../image/방재영-image4.jpg" width="600" height="360">   
+
 ref) https://thebook.io/080241/0139/
 
 ```zsh
