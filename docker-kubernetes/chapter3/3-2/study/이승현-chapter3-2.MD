@@ -156,7 +156,7 @@ metadata:
   labels:
     app: nginx
 spec:
-	replicas: 3 # 몇 개의 파드를 생성할지를 결정
+  replicas: 3 # 몇 개의 파드를 생성할지를 결정
 ```
 
 - 사용 가능한 API 버전을 확인하는 방법
