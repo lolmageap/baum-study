@@ -67,7 +67,7 @@ kubectl expose deployment <<디플로이먼트1> --type=LoadBalancer --name=1b-h
 kubectl create deployment <디플로이먼트1> --image=sysnet4admin/echo-hname
 
 #2. 위에서 설정했던 Metallb 서비스로 바로 설정 (위의 8번)
-kubectl expose deployment <<디플로이먼트1> --type=LoadBalancer --name=1b-hnmae-svc --port=80
+kubectl expose deployment <디플로이먼트1> --type=LoadBalancer --name=1b-hnmae-svc --port=80
 
 #3. 로드밸런서 서비스와 부여된 IP 확인
 kubectl get services
